@@ -4,41 +4,144 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quality</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Quality -->
-    <section>
-      <p class="section-name">Quality</p>
-      <h2 class="section-title">Why CoffeeJoy Stands Out from the Rest</h2>
-      <p>
-        At CoffeeJoy, we pride ourselves on delivering the freshest roasted
-        coffee, crafted with care by our skilled baristas. Our flexible
-        subscription plans ensure that your coffee experience is tailored to
-        your needs.
-      </p>
-      <ul>
-        <li>
-          <img src="./image/Quality-desk-1-min.jpg" alt="coffee beans" />
-          <h4>Fresh-Roasted Coffee for Every Taste</h4>
-          <p>Savor the rich flavors of our expertly sourced beans.</p>
-        </li>
-        <li>
-          <img src="./image/Quality-desk-2-min.jpg" alt="making coffee" />
-          <h4>Expert Baristas Crafting Your Perfect Brew</h4>
-          <p>
-            Our baristas are passionate about coffee and skilled in their craft.
+    <section class="benefits-section" id="benefits">
+      <div class="child">
+        <div class="benefits-intro">
+          <p class="benefits-section-name">Quality</p>
+          <h2 class="benefits-section-title">
+            Why CoffeeJoy Stands Out from the Rest
+          </h2>
+          <p class="benefits-descr">
+            At CoffeeJoy, we pride ourselves on delivering the freshest roasted
+            coffee, crafted with care by our skilled baristas. Our flexible
+            subscription plans ensure that your coffee experience is tailored to
+            your needs.
           </p>
-        </li>
-        <li>
-          <img src="./image/Quality-desk-3-min.jpg" alt="recreation area" />
-          <h4>Cozy Atmosphere</h4>
-          <p>
-            We don’t just serve coffee — we create a warm and welcoming space
-            where every cup feels like home.
-          </p>
-        </li>
-      </ul>
+        </div>
+        <div class="benefits-cards">
+          <ul class="benefits-list">
+            <!-- Card 1 -->
+            <li class="benefits-item">
+              <article class="benefits-card">
+                <picture class="benefits-media">
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./image/Quality-desk-1-min.jpg,
+                      ./image/Quality-desk-1@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./image/Quality-tab-1-min.jpg,
+                      ./image/Quality-tab-1@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    class="benefits-img"
+                    src="./image/Quality-mob-1-min.jpg"
+                    srcset="./image/Quality-mob-1@2x-min.jpg 2x"
+                    alt="Close-up of freshly roasted coffee beans"
+                    width="288"
+                    height="164"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+                <h3 class="benefits-item-title">
+                  Fresh-Roasted Coffee for Every Taste
+                </h3>
+                <p class="benefits-item-descr">
+                  Savor the rich flavors of our expertly sourced beans.
+                </p>
+              </article>
+            </li>
+            <!-- Card 2 -->
+            <li class="benefits-item">
+              <article class="benefits-card">
+                <picture class="benefits-media">
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./image/Quality-desk-2-min.jpg,
+                      ./image/Quality-desk-2@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./image/Quality-tab-2-min.jpg,
+                      ./image/Quality-tab-2@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    class="benefits-img"
+                    src="./image/Quality-mob-2-min.jpg"
+                    srcset="./image/Quality-mob-2@2x-min.jpg 2x"
+                    alt="Barista pouring espresso into a cup"
+                    width="288"
+                    height="164"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+                <h3 class="benefits-item-title">
+                  Expert Baristas Crafting Your Perfect Brew
+                </h3>
+                <p class="benefits-item-descr">
+                  Our baristas are passionate about coffee and skilled in their
+                  craft.
+                </p>
+              </article>
+            </li>
+            <!-- Card 3 -->
+            <li class="benefits-item">
+              <article class="benefits-card">
+                <picture class="benefits-media">
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./image/Quality-desk-3-min.jpg,
+                      ./image/Quality-desk-3@2x-min.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./image/Quality-tab-3-min.jpg,
+                      ./image/Quality-tab-3@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    class="benefits-img"
+                    src="./image/Quality-mob-3-min.jpg"
+                    srcset="./image/Quality-mob-3@2x-min.jpg 2x"
+                    alt="Cozy seating area inside the café"
+                    width="288"
+                    height="164"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+                <h3 class="benefits-item-title">Cozy Atmosphere</h3>
+                <p class="benefits-item-descr">
+                  We don’t just serve coffee — we create a warm and welcoming
+                  space where every cup feels like home.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
